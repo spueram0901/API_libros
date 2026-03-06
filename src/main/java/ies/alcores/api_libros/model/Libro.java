@@ -18,6 +18,5 @@ public class Libro {
     private Date fecha_publicacion;
 
     @ManyToOne
-    private Saga saga_id;
-
+    private Saga saga;
 }
